@@ -24,15 +24,18 @@
     font-size: 1.25rem;
     letter-spacing: 0.1em;
     color: #FFF;
-    background: #006494;
-    border: 1px solid #DAF8EE;
-    box-shadow: 0px 0px 6px #069FD0;
+    background: #C2086B;
     border-radius: 5px;
     text-decoration: none;
     text-transform: uppercase;
     padding: 1rem 2rem;
     display: inline-block;
     margin-top: 40px;
+  }
+
+  .btn-cta:hover {
+    background: linear-gradient(90deg, #D32682 0%, #840C4C 98.58%);
+    box-shadow: 0px 0px 6px #d32682; 
   }
 
   .hero-img {
