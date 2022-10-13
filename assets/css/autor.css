@@ -1,0 +1,85 @@
+ /* Autor */
+ .autor {
+    background: #E8F1F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.autor-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.autor-icon:hover .det-2 {
+    width: 100px;
+    transition: .3s;
+}
+
+.autor-icon:hover .det-1 {
+    width: 100px;
+    transition: .3s;
+
+}
+
+.autor-icon img {
+    max-width: 80px;
+}
+
+.det-1 {
+    width: 50px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    right: -1rem;
+}
+
+.det-2 {
+    width: 50px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: -1rem;
+}
+
+.autor-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 60px;
+    gap: 20px;
+}
+  
+.autor-img {
+    max-height: 500px;
+    filter: drop-shadow(0px 168.987px 135.189px rgba(0, 0, 0, 0.07)) drop-shadow(0px 50.9446px 40.7557px rgba(0, 0, 0, 0.0456112)) drop-shadow(0px 21.1598px 16.9278px rgba(0, 0, 0, 0.035)) drop-shadow(0px 7.65308px 6.12246px rgba(0, 0, 0, 0.0243888));
+}
+
+.autor-img img {
+    border-radius: 50px !important;
+}
+
+.autor-txt p {
+    opacity: .5;
+    margin-top: 20px;
+    line-height: 140%;
+    margin-bottom: 60px;
+}
+
+.autor-sociais ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.autor-sociais a {
+    opacity: .5;
+    transition: .3s;
+}
+
+.autor-sociais a:hover {
+    opacity: 1;
+}

@@ -1,0 +1,55 @@
+
+@import url("./hero.css");
+@import url("./autor.css");
+@import url("./footer.css");
+
+:root{
+    --black: #1d1e1f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a,p {
+    font-family: "Maven Pro", sans-serif;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #FFF;
+    margin-bottom: 20px;
+  }
+
+h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--black);
+    text-align: center;
+    padding: 80px 0 40px 0;
+}
+
+h3 {
+font-size: 2rem;
+line-height: 28px;
+/* identical to box height, or 88% */
+
+
+color: #1E1E1E
+}
+.container {
+    border: 2px solid red;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
