@@ -6,6 +6,11 @@
     align-items: center;
 }
 
+.autor-bg {
+    background: #E8F1F2;
+
+}
+
 .autor-icon {
     position: relative;
     display: flex;
@@ -91,6 +96,10 @@ img {
     opacity: 1;
 }
 
+.autor-btn {
+    display: none;
+}
+
 @media (max-width: 800px){
     .autor-icon {
         position: relative;
@@ -135,6 +144,7 @@ img {
         margin-top: 2rem;
         display: grid;
         grid-template-rows: auto auto auto;
+        justify-items: center;
     }
 
     .autor-sociais {
@@ -155,6 +165,13 @@ img {
         display: flex;
         list-style: none;
         gap: 1.5rem;
+    }
+
+    .autor-btn {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
     }
     
 }

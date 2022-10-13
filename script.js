@@ -104,7 +104,6 @@ document.addEventListener("DOMContentLoaded", () => {
         delay: .5,
         y: 100,
         opacity: 0,
-      //   stagger: { each: 0.3 },
         ease: "power3.out",
         scrollTrigger: {
           trigger: ".autor-img",
@@ -116,7 +115,6 @@ document.addEventListener("DOMContentLoaded", () => {
         delay: 1,
         y: 100,
         opacity: 0,
-      //   stagger: { each: 0.3 },
         ease: "power3.out",
         scrollTrigger: {
           trigger: ".autor-img",
@@ -129,6 +127,16 @@ document.addEventListener("DOMContentLoaded", () => {
         y: 50,
         opacity: 0,
         stagger: { each: .3 },
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: ".autor-img",
+        },
+      });
+      gsap.from(".autor-btn", {
+        duration: 1,
+        delay: 2,
+        y: 50,
+        opacity: 0,
         ease: "power3.out",
         scrollTrigger: {
           trigger: ".autor-img",
