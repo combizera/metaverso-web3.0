@@ -55,10 +55,13 @@
   
 .autor-img {
     max-height: 500px;
-    filter: drop-shadow(0px 168.987px 135.189px rgba(0, 0, 0, 0.07)) drop-shadow(0px 50.9446px 40.7557px rgba(0, 0, 0, 0.0456112)) drop-shadow(0px 21.1598px 16.9278px rgba(0, 0, 0, 0.035)) drop-shadow(0px 7.65308px 6.12246px rgba(0, 0, 0, 0.0243888));
     display: flex;
     justify-content: flex-end;
     margin-right: 5rem;
+}
+
+.autor-img img {
+    box-shadow: 0px 168.987px 135.189px rgba(0, 0, 0, 0.07), 0px 50.9446px 40.7557px rgba(0, 0, 0, 0.0456112), 0px 21.1598px 16.9278px rgba(0, 0, 0, 0.035), 0px 7.65308px 6.12246px rgba(0, 0, 0, 0.0243888);
 }
 
 img {

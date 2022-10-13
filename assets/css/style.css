@@ -60,6 +60,8 @@ color: var(--black);
   
   h2 {
     padding: 60px 0 0px 0;
+    display: none;
+
   }
   
   h3 {
