@@ -42,14 +42,34 @@ h2 {
 
 h3 {
 font-size: 2rem;
-line-height: 28px;
-/* identical to box height, or 88% */
-
-
-color: #1E1E1E
+color: var(--black);
 }
+
 .container {
     border: 2px solid red;
     max-width: 1400px;
     margin: 0 auto;
+  }
+
+  @media (max-width: 800px){
+  
+    h1 {
+      font-weight: 700;
+      font-size: 3rem;
+    }
+  
+  h2 {
+      padding: 60px 0 0px 0;
+  }
+  
+  h3 {
+  font-size: 2rem;
+  color: var(--black);
+  }
+
+  .container {
+      border: 2px solid red;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
   }
