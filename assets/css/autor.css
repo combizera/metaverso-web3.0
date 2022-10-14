@@ -125,6 +125,10 @@ img {
     .autor-icon img {
         display: none;
     }
+
+    .hero-livro {
+        padding: 0 20px;
+    }
     
     .det-1 {
         display: none;
@@ -136,7 +140,7 @@ img {
     
     .autor-grid {
         grid-template-columns: 1fr;
-        padding: 60px 20px;
+        padding: 60px 40px;
         gap: 0px;
     }
 
