@@ -46,7 +46,7 @@ color: var(--black);
 }
 
 .container {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     max-width: 1400px;
     margin: 0 auto;
   }
@@ -70,7 +70,7 @@ color: var(--black);
   }
 
   .container {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     max-width: 1400px;
     margin: 0 auto;
     }

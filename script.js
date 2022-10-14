@@ -40,6 +40,16 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       "-=0.8"
     );
+    tl.from(
+      ".blur",
+      {
+        duration: 1.5,
+        opacity: 0,
+        ease: "power3.out",
+        y: 50,
+      },
+      "-=0.8"
+    );
   
     // depois do scroll
     gsap.registerPlugin(ScrollTrigger);
@@ -58,7 +68,6 @@ document.addEventListener("DOMContentLoaded", () => {
       duration: 1,
       y: 300,
       opacity: 0,
-    //   stagger: { each: 0.3 },
       ease: "power3.out",
       scrollTrigger: {
         trigger: ".autor-img",
@@ -89,7 +98,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
       gsap.from(".autor-img", {
         duration: 2,
-        // delay: .5,
         y: 100,
         opacity: 0,
       //   stagger: { each: 0.3 },
